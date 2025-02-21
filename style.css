@@ -1,0 +1,100 @@
+body{
+    background-image:url('fundo.jpg');
+}
+.card-body{
+    background-color: rgb(39, 39, 39);
+    border: 0px;
+    border-radius: 15px;
+    width: 100%;
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.btnsda{
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
+    padding: 10px 38%;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.btns{
+    font-size: 26px;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 94, 94);
+    padding: 30px 40%;
+    margin-bottom: 2%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.btns:hover{
+    background-color: rgb(68, 68, 68);
+}
+.btnsa{
+    margin-bottom: 6%;
+    font-size: 26px;
+    padding: 30px 40%;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
+    transition: 0.2s;
+}
+.btnsd{
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
+    padding: 10px 58%;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+
+.btnsa:hover, .btnsd:hover{
+    background-color: rgb(94, 94, 94);
+}
+.btnsda:hover{
+    background-color: rgb(94, 94, 94);
+
+}
+.btnss{
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+    padding:27px 37%;
+    background-color: Highlight;
+    transition: 0.2s;
+
+}
+.btnss:hover{
+    background: rgb(0, 105, 226);
+}
+#display:hover{
+    border: 0px solid black;
+    cursor: s-resize;
+}
